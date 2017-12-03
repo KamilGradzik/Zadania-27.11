@@ -22,14 +22,13 @@ public class Zadanie6_2 {
 				wynik+=(kopia.charAt(z)-48)*(Math.pow(10,x));
 				z++;
 			}
-		System.out.println(wynik);
 		return wynik;	
 	}
 	public static void main(String[] args) {
 	Scanner reader=new Scanner(System.in);
 	System.out.print("Ciag znakow: ");
 	String text=reader.nextLine();
-	strToInt(text);
+	System.out.print(strToInt(text));
 }
 
 }

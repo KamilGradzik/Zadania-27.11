@@ -18,14 +18,13 @@ public class Zadanie4_2 {
 				kopia+=(char)(text.charAt(i)+p);
 			}	
 		}
-		System.out.print(kopia);
 		return kopia;	
 	}
 	public static void main(String[] args) {
 	Scanner reader=new Scanner(System.in);
 	System.out.print("Ciag znakow: ");
 	String text=reader.nextLine();
-	flipCase(text);
+	System.out.print(flipCase(text));
 }
 
 }
